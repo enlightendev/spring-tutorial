@@ -1,6 +1,5 @@
 package com.enlightendev.spring.jpa.controller;
 
-import com.enlightendev.spring.jpa.domain.Tag;
 import com.enlightendev.spring.jpa.service.TagService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

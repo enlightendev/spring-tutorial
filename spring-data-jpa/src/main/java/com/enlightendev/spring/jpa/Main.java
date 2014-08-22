@@ -33,8 +33,7 @@ public class Main {
 
         List<Tag> tagsByName = tagRepository.findByName("etf");
         System.out.println("tags found byName:");
-        for (int i = 0; i < tagsByName.size(); i++) {
-            Tag tag =  tagsByName.get(i);
+        for (Tag tag : tagsByName) {
             System.out.println(tag);
         }
     }
