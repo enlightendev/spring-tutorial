@@ -16,6 +16,7 @@
     <modules>
         <module>file-upload</module>
         <module>spring-data-jpa</module>
+        <module>spring-data-rest</module>
     </modules>
 
     <developers>
