@@ -4,20 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <packaging>pom</packaging>
-    <modules>
-        <module>../spring-rest-services</module>
-    </modules>
-
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.1.5.RELEASE</version>
     </parent>
 
-    <artifactId>spring-tutorial-datarest</artifactId>
-    <name>Spring Boot Data REST</name>
-    <description>Spring Boot Data REST Sample</description>
+    <artifactId>spring-rest-services</artifactId>
+    <name>Spring Boot Data REST Services</name>
     <url>www.enlightendev.io</url>
     <organization>
         <name>EnlightenDev</name>
@@ -25,35 +19,29 @@
     </organization>
 
     <dependencies>
-        <dependency>
-            <groupId>org.atteo</groupId>
-            <artifactId>evo-inflector</artifactId>
-            <version>1.2</version>
-        </dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-rest</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-jpa</artifactId>
-        </dependency>
+        <!-- @Configuration, @ComponentScan, @EnableAutoConfiguration -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.hsqldb</groupId>
-            <artifactId>hsqldb</artifactId>
-            <scope>runtime</scope>
-        </dependency>
+
+        <!-- SpringJUnit4ClassRunner
+             org.junit.runner.RunWith
+             org.springframework.boot.test.SpringApplicationConfiguration -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!-- retrofit client for testing-->
+        <dependency>
+            <groupId>com.squareup.retrofit</groupId>
+            <artifactId>retrofit</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+
     </dependencies>
 
 </project>
