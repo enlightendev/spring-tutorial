@@ -9,6 +9,8 @@ public class TradeLogEntry {
     private String ticker = "";
     private String name = "";
 
+	public TradeLogEntry(){}
+
     public TradeLogEntry(String ticker, String name){
         this.ticker = ticker;
         this.name = name;

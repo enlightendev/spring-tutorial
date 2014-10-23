@@ -29,8 +29,8 @@ public class TradeLogControllerRetrofitTest {
         assertTrue(entry1.getId() > 0);
 
 
-        TradeLogEntry tradeLogEntry = tradeLogControllerApi.getEntryById((1l));
-        assertTrue(tradeLogEntry.getName().equalsIgnoreCase("IBM"));
+        TradeLogEntry tradeLogEntry = tradeLogControllerApi.getEntryById((entry1.getId()));
+        assertTrue(tradeLogEntry.getTicker().equalsIgnoreCase("IBM"));
 
 
 
