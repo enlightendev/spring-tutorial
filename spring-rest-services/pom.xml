@@ -11,7 +11,7 @@
     </parent>
 
     <artifactId>spring-rest-services</artifactId>
-    <name>Spring Boot Data REST Services</name>
+    <name>spring-boot-data-rest-services</name>
     <url>www.enlightendev.io</url>
     <organization>
         <name>EnlightenDev</name>

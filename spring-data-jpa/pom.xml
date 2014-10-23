@@ -11,8 +11,8 @@
         <version>1.1.5.RELEASE</version>
     </parent>
 
-    <artifactId>spring-tutorial-jpa</artifactId>
-    <name>Spring Boot Data JPA</name>
+    <artifactId>spring-data-jpa</artifactId>
+    <name>spring-boot-data-jpa</name>
     <description>Spring Boot Data JPA Sample</description>
     <url>www.enlightendev.io</url>
     <organization>

@@ -1,4 +1,4 @@
-## Overview
+## about
 
 This version of the application further reduces the amount of code and greatly
 enhances the available functions on the service. The tag service in this version
@@ -11,7 +11,7 @@ supports sending HTTP requests to:
    4. Send search requests to our findByXYZ methods to /tag/search/findByXYZ
       (e.g., /tag/search/findByName?title=Foo)
 
-## What to Pay Attention to
+#### what to pay attention to
 
 In this version of the tag service application, we have added Spring Data Rest,
 which automatically provides all of the functions describe above for our repository.
@@ -26,5 +26,17 @@ which automatically provides all of the functions describe above for our reposit
    expose the TagRepository through a controller and map it to the 
    "/tag" path.
 
+## tags
 
+
+## setup 
+
+
+## running
+
+
+## testing
+
+
+## resources
 

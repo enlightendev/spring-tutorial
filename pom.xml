@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>Spring tutorial projects</name>
+    <name>spring tutorial projects</name>
     <description>Tutorial projects for Spring</description>
     <url>http://www.enlightendev.io</url>
 
